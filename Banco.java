@@ -23,7 +23,7 @@ public class Banco {
 			JOptionPane.showMessageDialog(null, "Nome ou senha inválido. Tente novamente.");
 		}
 		
-	}while (loop == 1);
+	}while (loop == 1); 
 	
 	
 	
