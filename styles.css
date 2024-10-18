@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Dancing+Script:wght@400..700&family=Fleur+De+Leah&family=Style+Script&family=Updock&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(239, 235, 245);
+    background-color: rgb(232, 222, 245);
 }
 
 p {
@@ -21,12 +21,43 @@ header {
     display: flex;
     align-items: center;
     padding-left: 40px;
-    background-color: rgb(238, 221, 255);
+    background-color: rgb(208, 161, 255);
 }
 
 header img {
     height: 180px;
    
+}
+
+.home-container {
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    width: 100%;
+    gap: 80px;
+    margin-top: 100px;
+}
+
+.home-container img{
+    width: 460px;
+    margin-left: -52px;
+   border-radius: 30px;
+}
+
+.home-container p{
+    font-size: 22px;
+}
+
+.home-container h2 {
+    font-family: "Crimson Text", serif;
+    color: rgb(109, 41, 136);
+    margin-top: 5px;
+}
+
+.home-container p {
+    width: 1100px;
+    font-size: 22px;
+    margin-top: 25px;
 }
 
 .aboutMe-container {
@@ -35,7 +66,11 @@ header img {
    justify-content: center;
    width: 100%;
    gap: 80px;
-   margin-top: 30px;
+   margin-top: 200px;
+}
+
+.aboutMe-container img{
+    border-radius: 30px;
 }
 
 .aboutMe-container p{
@@ -43,6 +78,7 @@ header img {
     font-size: 22px;
     margin-top: 25px;
 }
+
 .aboutMe-container h2{
     font-family: "Crimson Text", serif;
     color: rgb(109, 41, 136);
@@ -58,14 +94,68 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./imagens/background.avif);
+    background-image: url(./imagens/fundo-abstrato-aquarela_23-2149038905.avif);
     background-repeat: no-repeat;
     width: 100%;
-    height: 400px;
+    height: 450px;
+    background-size: 100%;
+    
 }
+
 
 .paragleider{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    
+
+
+}
+
+
+.paragleider h1{
+    font-family: "Updock", cursive;
+    font-size: 120px;
+    color: rgb(173, 163, 65);
+}
+
+.paragleider img{
+    width: 160px;
+    margin-left: -50px;
+}
+
+.pinteca{
+margin-top: 22px;
+}
+.projetos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+    gap: 20px;
+    width: 100%;
+    margin-left: 87px;
+}
+.projetos h1{
+    font-size: 22px;
+    color: rgb(109, 41, 136);
+
+}
+.projetos h2{
+    font-size: 20px;
+    color: rgb(109, 41, 136);
+}
+
+.projetos p{
+    font-size: 22px;
+}
+
+.alinhar{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
 }
