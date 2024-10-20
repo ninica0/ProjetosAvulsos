@@ -25,7 +25,7 @@ public class Banco {
 		
 	}while (loop == 1); 
 	
-	
+	 
 	
 
 	}
