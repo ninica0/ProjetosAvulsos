@@ -8,6 +8,7 @@
 
 body {
     background-color: #9dade4;
+    width: 100%;
 }
 
 p {
@@ -40,7 +41,6 @@ header img {
 
 .home-container img{
     width: 460px;
-    margin-left: -52px;
    border-radius: 30px;
 }
 
@@ -65,7 +65,7 @@ header img {
    align-items: center;
    justify-content: center;
    width: 100%;
-   gap: 80px;
+   gap: 50px;
    margin-top: 200px;
 }
 
@@ -114,29 +114,17 @@ main {
 }
 
 
-.paragleider h1{
-    font-family: "Updock", cursive;
-    font-size: 120px;
-    color: rgb(88, 73, 40);
-}
-
-.paragleider img{
-    width: 160px;
-    margin-left: -50px;
-}
-
 .pinteca{
-margin-top: 22px;
+margin-top: 10px;
 }
 .projetos{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    
     margin-top: 200px;
-    gap: 20px;
     width: 100%;
-    margin-left: 87px;
+    /* margin-left: 87px; */
 }
 .projetos h1{
     font-size: 22px;
@@ -152,12 +140,41 @@ margin-top: 22px;
     font-size: 22px;
 }
 
-.alinhar{
+.projetos img{
+    width: 450px;
+    height: 500px;
+    border-radius: 30px;
+    margin-left: 125px;
+}
+
+.éNois{
     display: flex;
-    width: 100%;
     flex-direction: column;
+    align-items:  center;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.éNois h2{
+    display: flex;
     align-items: start;
     justify-content: start;
+    width: 89%;
+    /* margin-right: 1000px; */
+}
+
+.alinhar{
+    display: flex;
+width: 100%;
+align-items: center
+;
+justify-content: center;
+    flex-direction: column;
+}
+.alinhar p{
+    width: 1100px;
 }
 
 
