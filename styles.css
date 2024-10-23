@@ -21,12 +21,12 @@ header {
     gap: 380px;
     display: flex;
     align-items: center;
-    padding-left: 40px;
-    background-color: #7082c4;
+    padding-left: 100px;
+    background-color: #8394cf;
 }
 
 header img {
-    height: 180px;
+    height: 140px;
    
 }
 
@@ -124,6 +124,7 @@ margin-top: 10px;
     
     margin-top: 200px;
     width: 100%;
+   
     /* margin-left: 87px; */
 }
 .projetos h1{
@@ -141,10 +142,10 @@ margin-top: 10px;
 }
 
 .projetos img{
-    width: 450px;
-    height: 500px;
+    width: 480px;
+    height: 490px;
     border-radius: 30px;
-    margin-left: 125px;
+    margin-left: 120px;
 }
 
 .éNois{
@@ -168,13 +169,62 @@ margin-top: 10px;
 .alinhar{
     display: flex;
 width: 100%;
-align-items: center
-;
+align-items: end;
+margin-bottom: 80px;
 justify-content: center;
     flex-direction: column;
+    gap: 15px;
+
 }
 .alinhar p{
     width: 1100px;
 }
+
+.alinhar button{
+    width: 100px;
+    height: 48px;
+    background-color: #7e90f5;
+    border-radius: 20px;
+    border: none;
+    margin-right: 100px;
+  
+}
+.alinhar button:hover{
+    background-color: rgb(60, 60, 243);
+    width: 100px;
+    height: 48px;
+    transition: 1s;
+}
+
+
+.alinhar a{
+    text-decoration: none;
+    color: rgb(215, 236, 255);
+}
+
+.batata{
+    display: flex;
+    align-items: center;
+   
+}
+
+.batata img{
+    width: 140px;
+}
+
+footer {
+    background-color: #8394cf;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 70px;
+    height: 150px;
+   
+}
+
+span{
+    color: rgb(17, 16, 26);
+}
+
 
 
