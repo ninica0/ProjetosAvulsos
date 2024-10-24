@@ -23,6 +23,7 @@ header {
     align-items: center;
     padding-left: 100px;
     background-color: #8394cf;
+    /* width: 100%; */
 }
 
 header img {
@@ -40,8 +41,9 @@ header img {
 }
 
 .home-container img{
-    width: 460px;
+  width: 460px;
    border-radius: 30px;
+
 }
 
 .home-container p{
@@ -96,9 +98,10 @@ main {
     align-items: center;
     background-image: url(./imagens/sol-e-lua-padrao_68162-206.avif);
     background-repeat: repeat;
-    width: 100%;
+  width: 100%;
     height: 450px;
     background-size: 33%;
+
     
 }
 
@@ -117,9 +120,10 @@ main {
 .pinteca{
 margin-top: 10px;
 }
+
 .projetos{
     display: flex;
-    align-items: center;
+  align-items: start;
     justify-content: center;
     
     margin-top: 200px;
@@ -142,10 +146,11 @@ margin-top: 10px;
 }
 
 .projetos img{
-    width: 480px;
-    height: 490px;
+    width: 460px;
+    height: 500px;
     border-radius: 30px;
-    margin-left: 120px;
+    margin-left: 110px;
+    margin-top: 50px;
 }
 
 .éNois{
@@ -169,15 +174,21 @@ margin-top: 10px;
 .alinhar{
     display: flex;
 width: 100%;
-align-items: end;
+align-items: self-start;
 margin-bottom: 80px;
 justify-content: center;
     flex-direction: column;
     gap: 15px;
+    margin-left: 140px;
 
 }
 .alinhar p{
     width: 1100px;
+    margin-left: 20px;
+}
+
+.alinhar h2{
+    margin-left: 20px;
 }
 
 .alinhar button{
@@ -186,7 +197,8 @@ justify-content: center;
     background-color: #7e90f5;
     border-radius: 20px;
     border: none;
-    margin-right: 100px;
+   margin-left: 20px;
+    
   
 }
 .alinhar button:hover{
@@ -194,6 +206,7 @@ justify-content: center;
     width: 100px;
     height: 48px;
     transition: 1s;
+
 }
 
 
@@ -219,7 +232,7 @@ footer {
     justify-content: space-between;
     padding-left: 70px;
     height: 150px;
-   
+   /* width: 100%; */
 }
 
 span{
